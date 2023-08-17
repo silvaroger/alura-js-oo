@@ -17,5 +17,10 @@ const conta2 = new ContaCorrente;
 conta2.agencia = 1002;
 conta2.cliente = cliente2;
 
+contaCorrenteRicardo.depositar(1000);
+console.log("Saldo Ricardo: ",contaCorrenteRicardo._saldo);
+console.log("Saldo Aline: ", conta2._saldo);
 
-console.log(conta2);
+contaCorrenteRicardo.transferir(150,conta2);
+console.log("Saldo ricardo: ",contaCorrenteRicardo._saldo);
+console.log("Saldo ALine", conta2._saldo);

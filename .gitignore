@@ -1,2 +1,4 @@
+.gitignore
 .vscode
 .vscode/settings.json
+package.json
